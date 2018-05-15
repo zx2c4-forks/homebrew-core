@@ -3,6 +3,7 @@ class WireguardGo < Formula
   homepage "https://www.wireguard.com/"
   url "https://git.zx2c4.com/wireguard-go/snapshot/wireguard-go-0.0.20180514.tar.xz"
   sha256 "3ff1d2d72026da986cf93ac3a32602f4d175735ba5dc2962cd303275de8dff6e"
+  head "https://git.zx2c4.com/wireguard-go", :using => :git
 
   depends_on "dep" => :build
   depends_on "go" => :build
